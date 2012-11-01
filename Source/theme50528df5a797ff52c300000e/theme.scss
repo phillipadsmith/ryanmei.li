@@ -1,0 +1,40 @@
+@import "liquid_variables";
+
+// theme colors
+
+$theme_color_1: #D36209;
+$theme_color_2: #FFFFFF;
+$theme_color_3: #F89720;
+$theme_color_4: #FFFFFF;
+$theme_color_5: #333;
+$theme_color_6: #0F3D1E;
+
+$theme_callout: true;
+$footer_sun: "";
+$callout_linen: "";
+$callout_sun: "";
+$background_color: #0F3D1E;
+$header_color: $theme_color_1;
+
+// nav
+
+$supporter_nav_on: $theme_color_4;
+$supporter_nav_hover: $theme_color_4;
+
+// fonts
+
+$fonts: Helvetica, Arial, sans-serif;
+$form_field_font: Helvetica, Arial, sans-serif;
+$headline_font: Helvetica, Arial;
+$headline_weight: bold;
+
+@import "liquid_all";
+@import "liquid_basic_framework";
+
+/* Theme specific SCSS exists in the file imported below. 
+Click the Default button above the template editor to see 
+what the file contains if you wish to override any of it. */
+
+@import "resolve";
+
+/* Add SCSS you wish to override or add below. */
