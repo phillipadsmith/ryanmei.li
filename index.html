@@ -34,26 +34,31 @@
           <div id="marketing-copy">
               <p><span id="together">Together</span>
               We can build a healthier province.</p>
-              <img src="/img/ryan-portrait-320.jpg" />
+              <div id="ryan-portrait">&nbsp;</div> 
               <p id="join">Join Ryan Meili and be part of a movement for change in Saskatchewan politics:</p>
 
           </div>
       </div>
       <div id="form">
-          <fieldset>
-              <input class="email" type="text" name="email" value="E-mail address" />
-              <input class="postal" type="text" name="postal" value="Postal code" />
-              <input class="submit" type="submit" name="submit" value="Join the campaign" />
-          </fieldset>
+        <form action="#">
+              <fieldset>
+                  <input class="email" type="text" name="email" value="E-mail address" onfocus="if(this.value=='E-mail address') this.value='';" onblur="if(this.value=='') this.value='E-mail address';" />
+
+                  <input class="postal" type="text" name="postal" value="Postal code" onfocus="if(this.value=='Postal code') this.value='';" onblur="if(this.value=='') this.value='Postal code';" />
+                  <input class="submit" type="submit" name="submit" value="Join the campaign" />
+              </fieldset>
+          </form>
           <br />
       </div>
       <div id="donate">
             <p>Or make a donation today and help build a movement for change.</p>
-            <a id="donate" href="/donate">Donate</a>
+            <br />
+            <p><a id="donate" href="/donate">Donate Now</a></p>
       </div>
       <a href="#">Continue to the campaign website ...</a>
   </div>
-  <footer>
+  <footer class="hidden-phone">
+  &nbsp;
   </footer>
 
 
